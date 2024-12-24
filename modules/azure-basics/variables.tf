@@ -10,6 +10,11 @@ variable "location" {
   default     = "East US"
 }
 
+variable "default_tags" {
+  type = map(string)
+}
+
 variable "tags" {
-  
+  type = map(string)
+  default = {}
 }
