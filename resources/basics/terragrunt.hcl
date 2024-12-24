@@ -6,13 +6,13 @@ inputs = {
     resource_group_name="pratik-argade-az-basics"
     location="West Europe"
 
-    default_tags = {
+  default_tags = {
     environment = "dev"
     owner       = "team-a"
-    }
-    tags={
-        project="learn-az-services"
-        budget="free-tier"
-        maintainer="Pratik Argade"
-    }
+  }
+  tags = {
+    project = "learn-az-services"
+    cost    = "1000"
+    budget  = "free-tier"
+  }
 }
