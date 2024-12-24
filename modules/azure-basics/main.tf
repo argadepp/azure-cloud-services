@@ -7,3 +7,12 @@ resource "azurerm_resource_group" "basics-rg" {
 output "merged_tags" {
   value = merge(var.default_tags, var.tags)
 }
+
+resource "azurerm_resource_group" "example" {
+  name     = "testResourceGroup1"
+  location = "West US"
+
+  tags = {
+    environment = "Production"
+  }
+}
