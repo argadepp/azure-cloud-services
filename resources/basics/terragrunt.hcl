@@ -1,5 +1,5 @@
 terraform {
-  source = "https://github.com/argadepp/azure-cloud-services/tree/master/modules/azure-basics"
+  source = "https://github.com/argadepp/azure-cloud-services.git//modules/azure-basics?ref=master"
 }
 
 inputs = {
