@@ -10,7 +10,7 @@ output "merged_tags" {
 
 resource "azurerm_resource_group" "example" {
   name     = "testResourceGroup1"
-  location = "West US"
+  location = var.location
 
   tags = {
     environment = "Production"
