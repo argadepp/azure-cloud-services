@@ -35,3 +35,19 @@ variable "client_secret" {
 variable "tenant_id" {
   
 }
+
+variable "vnet-name" {
+  
+}
+
+variable "subnet-name" {
+  
+}
+
+variable "vnet-cidr" {
+  
+}
+
+variable "subnet-cidr" {
+  
+}
